@@ -1,0 +1,51 @@
+body {
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: inline-block;
+    /*padding: 30px 10px 30px 200px;*/
+    margin-left: 70px ;
+
+}
+nav a{
+    margin-right: 12px;
+}
+
+#logo{
+    /*padding: 30px 60px;
+    float: right;*/
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    margin-right: 6px;
+}
+
+#bottun{
+    /*padding: 30px 10px 30px 60px;
+    margin: 5px;*/
+    margin-left: 50px;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+main{
+    margin-top: 20px;
+}
+.top-section{
+    display: flex;
+}
+
+.top-section div{
+    width: 50%;
+}
